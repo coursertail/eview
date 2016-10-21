@@ -1,0 +1,36 @@
+{
+  "name": "eview",
+  "version": "0.1.0",
+  "description": "another mvvm framework.",
+  "main": "dist/eview.js",
+  "scripts": {
+    "build": "node build/build.js",
+    "clean": "gulp clean",
+    "lint": "eslint src build test",
+    "flow": "flow check",
+    "test": "eslint src build test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coursertail/eview.git"
+  },
+  "keywords": [
+    "mvvm",
+    "eview"
+  ],
+  "author": "coursertail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coursertail/eview/issues"
+  },
+  "homepage": "https://github.com/coursertail/eview#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "eslint": "^3.8.1",
+    "flow": "^0.2.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2"
+  }
+}
